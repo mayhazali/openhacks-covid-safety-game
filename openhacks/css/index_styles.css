@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  background-image: url(../../image/covid_map.jpg);
+  background-image: url(../image/covid_map.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0;
