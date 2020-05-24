@@ -22,7 +22,7 @@ input {
 }
 
 
-#button {
+#button, button {
 	background-color: indianred;
 	border-radius: 5px;
 	padding: 10px;
