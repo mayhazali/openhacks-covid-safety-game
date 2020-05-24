@@ -5,11 +5,22 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" type="text/css" href="styles.css">
+		<script src="javascript.js"></script>
 	</head>
 	<body>
 		<div class="header">
 		  <h1>Choice Tracker</h1>
-		  <p> 2000 points</p>
+		  <p> 
+		  	<script type="text/javascript">
+					document.write(points)
+			</script> 
+			points</p>
+		</div>
+
+		<div class="longText">
+			<button onclick="changePoints()"> 
+				CLICK TO CHANGE POINTS (this doesnt work)
+			</button>
 		</div>
 
 		
