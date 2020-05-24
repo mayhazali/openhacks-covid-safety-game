@@ -15,7 +15,7 @@ function check(){
   if (question3==="Soap"){
     correct_answers+=1;
   }
-  if (question4==="Termometer"){
+  if (question4==="Thermometer"){
     correct_answers+=1;
   }
   
