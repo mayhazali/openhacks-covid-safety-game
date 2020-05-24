@@ -19,7 +19,6 @@ https://mayhazali.github.io/openhacks-covid-safety-game/openhacks/html/ChoiceTra
 
 Fake News Quiz
 --------------
-Main page for the Covid Fake News quiz:
 https://mayhazali.github.io/openhacks-covid-safety-game/openhacks/html/FakeNewsQuiz/fakenews.html
 
-Open in any browser to take the quiz, works best with Chrome
+Open in any browser, works best with Chrome
