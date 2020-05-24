@@ -1,0 +1,53 @@
+html {
+  font-family: 'Chelsea Market', cursive;
+}
+
+body {
+  background-image: url(/openhacks/image/covid_map.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 50px;
+  color: yellowgreen;
+}
+
+.centeredButton{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.start_button {
+  background-color: greenyellow;
+  border: 6px solid green;
+  font-size: 80px;
+  text-align: center;
+  padding: 15px 32px;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+  font-family: 'Press Start 2P', cursive;
+}
+
+.start_button:hover{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.link_scores a{
+  font-size: 40px;
+  color: yellowgreen;
+}
+
+a:hover {
+  background-color: greenyellow;
+}
