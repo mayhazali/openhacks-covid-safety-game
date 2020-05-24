@@ -1,6 +1,13 @@
 # openhacks-covid-safety-game
 A game to encourage and motivate players to follow Covid safety rules
 
+Game Main page
+--------------
+openhacks\html\index.html
+
+Choice Tracker
+--------------
+openhacks\html\ChoiceTracker\choicesMain.html
 
 Fake News Quiz
 --------------
