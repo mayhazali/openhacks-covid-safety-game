@@ -1,5 +1,6 @@
 var points = 2000;
-
-function changePoints(){//does not work I don't know why.
-	points = 1000;
+var choices = [];//a list
+function changePoints(n){//does not work I don't know why.
+	points = points + n;
 }
+

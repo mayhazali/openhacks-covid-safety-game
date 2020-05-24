@@ -3,6 +3,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   color: white;
 }
+
 .header {
   padding: 40px; /* some padding */
   text-align: center; /* center the text */
@@ -39,5 +40,6 @@ a {
 .button:hover {
 	background: red;
 }
+
 
 
