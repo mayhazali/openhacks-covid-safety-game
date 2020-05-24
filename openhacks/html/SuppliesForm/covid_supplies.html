@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Stage 1 - Get You Supplies Ready</title>
+    <meta name="description" content="Open Hacks Covid Game">
+    <meta name="author" content="Mayha, Nicole, Paikea">
+    <link rel="stylesheet" href="/openhacks/css/supplies_styles.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <script src="/openhacks/js/supplies.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Stage 1 - Get Your Supplies!</h1>
+      <p>COVID-19 has arrived to your country, pick your supplies wisely.</p>
+    </header>
+    <main class="container">
+      <form id="supplies_quiz" name="supplies_quiz">
+        <h2>Food</h2>
+          <label for="food">What kind of food are you going to buy?</label><br>
+          <input type="radio" id="food" name="question1" value="Junk Food">Junk Food<br>
+          <input type="radio" id="food" name="question1" value="Canned and Dried Food">Canned and Dried Food<br>
+          <input type="radio" id="food" name="question1" value="Milk, Meat and Fruit">Milk, Meat and Fruit<br>
+        <h2>Higiene Products</h2>
+          <label for="toilet_paper">How many packs of toilet paper?</label><br>
+          <input id="toilet_paper" name="question2" type="radio" value="0">0<br>
+          <input id="toilet_paper" name="question2" type="radio" value="1-2">1-2<br>
+          <input id="toilet_paper" name="question2" type="radio" value="3-4">3-4<br>
+          <label for="hand_wash">What will you buy to wash your hands?</label><br>
+          <input id="hand_wash" type="radio" name="question3" value="Hand Sanitizer">Hand Sanitizer<br>
+          <input id="hand_wash" type="radio" name="question3" value="Soap">Soap<br>
+          <input id="hand_wash" type="radio" name="question3" value="Bleack">Bleach<br>
+        <h2>Health Products</h2>
+          <label for="temperature">A must-have for everyone...</label><br>
+          <input id="must_have" type="radio" name="question4" value="Termometer">Termometer<br>
+          <input id="must_have" type="radio" name="question4" value="Hydroxychloroquine">Hydroxychloroquine<br>
+          <input id="must_have" type="radio" name="question4" value="Flu Shot">Flu Shot<br>
+        
+        <input id="button" type="button" value="Submit" onclick="check();">
+      </form>
+      <div id="answer">
+        <p id="correct_answers"></p>
+        <p id="message"></p>
+        <button id="next">Next Stage</button>
+      </div>
+    </main>
+  </body>
+</html>
