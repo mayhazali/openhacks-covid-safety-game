@@ -1,0 +1,46 @@
+body {
+  font-family: 'Chelsea Market', cursive;
+  background-color: indianred;
+}
+
+header {
+  text-align: center;
+}
+
+#supplies_quiz {
+  margin-left: 10px;
+	background-color: lightgrey;
+	padding: 10px 20px 10px 20px;
+	width: 600px;
+	border-radius: 20px;
+	float: left;
+}
+
+input {
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+
+#button {
+	background-color: indianred;
+	border-radius: 5px;
+	padding: 10px;
+	color: white;
+	font-size: 16px;
+	transition-duration: .5s;
+	margin-top: 15px;
+  cursor: pointer;
+}
+
+#answer {
+  visibility: hidden;
+  background-color: lightgray;
+	padding: 10px 20px 10px 20px;
+	width: 600px;
+	border-radius: 20px;
+	float: left;
+	margin-left: 20px;
+	font-size: 30px;
+}
+
